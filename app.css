@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* sideNav */
+
+.sideNavBar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    background: purple;
+    left: -200px;
+    transition: linear 500ms;
+}
+
+.sideNavBar.active {
+    left: 0;
+}
+
+.sideNavBar ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin: 15px 10px;
+    padding: 15px;
+}
+
+.sideNavBar .toogle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+
+.sideNavBar .toogle-btn span {
+    background: purple;
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px 0px;
+}
